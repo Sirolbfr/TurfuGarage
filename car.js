@@ -12,4 +12,4 @@ class Car extends Vehicle {
   set colour(str) {this.#colour=str}
 }
 
-export default Car
+export default Car;
