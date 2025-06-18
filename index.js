@@ -3,4 +3,4 @@ import Vehicle from './vehicle.js';
 
 const NSX = new Car('Honda', 'NSX', '1990', 'red')
 console.log(NSX.getDetails)
-// hgqsvfjhsdv,fhsvdkfbsd
+// hgqsvfjhsdv,fhsvdkfbsdkhqdgfjchgwvcjqsvhf 
