@@ -7,7 +7,7 @@ class Car extends Vehicle {
     this.#colour = colour;
   }
 
-  get getDetails() {return [super.brand, super.model, super.year, this.#colour]}
+  get getDetails() {return [this.brand, this.model, this.year, this.#colour]}
   get colour() {return this.#colour}
   set colour(str) {this.#colour=str}
 }

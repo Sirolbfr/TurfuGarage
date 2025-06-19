@@ -6,7 +6,7 @@ class Dog extends Animal {
   }
 
   makeSound() {
-    console.log("Woof Woof!");
+    console.log(this.name + " : Woof Woof!");
   }
 }
 

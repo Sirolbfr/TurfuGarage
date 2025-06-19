@@ -6,7 +6,7 @@ class Cat extends Animal {
   }
 
   makeSound() {
-    console.log("Meow Meow");
+    console.log(this.name + " : Meow Meow");
   }
 }
 
