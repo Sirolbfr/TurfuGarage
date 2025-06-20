@@ -3,7 +3,7 @@ import Vehicle from './vehicle.js';
 class Motorbike extends Vehicle {
   #colour
   #displacement
-  constructor(brand,model,year,colour,displacement) {
+  constructor(brand='Suzuki',model='Hayabusa',year=1999,colour='black',displacement=1340) {
     super(brand, model, year)
     this.#colour = colour;
     this.#displacement = displacement

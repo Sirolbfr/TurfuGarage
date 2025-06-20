@@ -12,6 +12,8 @@ const S1000RR = new Motorbike('BMW','S1000RR',2009,'white',998)
 console.log(S1000RR.getDetails)
 const Spitfire = new Plane('Supermarine','Spitfire',1938)
 console.log(Spitfire.getDetails);
+const DefaultCar = new Car()
+console.log(DefaultCar.getDetails);
 
 const dflt = new Animal("test")
 dflt.makeSound()

@@ -2,7 +2,7 @@ import Vehicle from './vehicle.js';
 
 class Car extends Vehicle {
   #colour
-  constructor(brand,model,year,colour) {
+  constructor(brand='Toyota',model='AE86',year=1983,colour='white') {
     super(brand, model, year)
     this.#colour = colour;
   }
